@@ -158,7 +158,6 @@ class DeliveryEnv(gym.Env):
         self.no_delivery = 0
         self.delivery_idx = 0
         
-        # AICI TREBUIE MODIFICATA FORMAREA ARRAY-ului
         self.restaurant_pos = self.search_for_coordinates_blocks(self.desc,b'R')
         coord_A = self.search_for_coordinates_blocks(self.desc,b'A')
         coord_B = self.search_for_coordinates_blocks(self.desc,b'B')
